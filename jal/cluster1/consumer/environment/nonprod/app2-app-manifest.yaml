@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: fpr-nonprod
+  name: app2-nonprod
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
@@ -10,10 +10,10 @@ spec:
   source:
     repoURL: https://github.com/kshitijcode/demo-apps
     targetRevision: main
-    path: fpr-app
+    path: app2
   destination:
     server: https://kubernetes.default.svc
-    namespace: fpr
+    namespace: app2
   syncPolicy:
     automated:
       prune: true
