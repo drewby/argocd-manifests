@@ -10,5 +10,4 @@ resources:
 
 # nonprod environment
   - environment/nonprod/app1-app-manifest.yaml
-  - environment/nonprod/app2-app-manifest.yaml
 
