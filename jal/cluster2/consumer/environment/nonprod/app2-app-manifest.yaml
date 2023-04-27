@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: app2-nonprod
+  name: cluster2-app2-nonprod
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
