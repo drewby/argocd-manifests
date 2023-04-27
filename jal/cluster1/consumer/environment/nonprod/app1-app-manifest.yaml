@@ -3,8 +3,6 @@ kind: Application
 metadata:
   name: app1-nonprod
   namespace: argocd
-  finalizers:
-    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
