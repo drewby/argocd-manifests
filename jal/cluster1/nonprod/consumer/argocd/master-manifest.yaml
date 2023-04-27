@@ -11,5 +11,5 @@ spec:
     path: jal/cluster1/consumer
   destination:
     name: cluster1
-    namespace: default
+    namespace: default-all
 
