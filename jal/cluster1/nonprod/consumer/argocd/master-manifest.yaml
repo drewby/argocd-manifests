@@ -3,8 +3,6 @@ kind: Application
 metadata:
   name: cluster1-consumer-default-master-apps
   namespace: argocd
-  finalizers:
-    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
