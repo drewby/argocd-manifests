@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/drewby/argocd-manifests
     targetRevision: HEAD
-    path: default/cluster3/consumer
+    path: jal/cluster3/consumer
   destination:
     server: https://kubernetes.default.svc
     namespace: default
