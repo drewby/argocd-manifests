@@ -12,7 +12,4 @@ spec:
   destination:
     name: cluster1
     namespace: default
-  syncPolicy:
-    automated:
-      prune: true
-      selfHeal: true
+
