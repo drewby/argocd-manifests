@@ -12,7 +12,7 @@ spec:
     targetRevision: consumer-default-master-apps
     path: app1
   destination:
-    server: https://kubernetes.default.svc
+    server: cluster1
     namespace: app1
   syncPolicy:
     automated:
