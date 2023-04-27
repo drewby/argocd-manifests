@@ -13,7 +13,7 @@ spec:
     path: app2
   destination:
     name: cluster2
-    namespace: app2
+    namespace: default
   syncPolicy:
     automated:
       prune: true
