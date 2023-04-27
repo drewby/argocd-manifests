@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/drewby/demo-apps
-    targetRevision: consumer-default-master-apps
+    targetRevision: HEAD
     path: app1
   destination:
     server: cluster1
