@@ -9,5 +9,7 @@ spec:
     repoURL: https://github.com/drewby/argocd-manifests
     targetRevision: HEAD
     path: jal/cluster1/consumer
-
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
 
