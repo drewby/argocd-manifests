@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: cluster1-consumer-default-master-apps2
+  name: cluster1-consumer-default-master-apps
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io

@@ -12,7 +12,7 @@ spec:
     targetRevision: HEAD
     path: default/cluster3/consumer
   destination:
-    name: cluster3
+    server: https://kubernetes.default.svc
     namespace: default
   syncPolicy:
     automated:

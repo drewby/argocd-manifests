@@ -12,8 +12,8 @@ spec:
     targetRevision: HEAD
     path: jal/cluster2/consumer
   destination:
-    name: cluster2
-    namespace: default-all
+    server: https://kubernetes.default.svc
+    namespace: default
   syncPolicy:
     automated:
       prune: True
