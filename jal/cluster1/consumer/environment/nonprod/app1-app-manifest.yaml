@@ -3,6 +3,8 @@ kind: Application
 metadata:
   name: app1-nonprod2
   namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
@@ -12,4 +14,7 @@ spec:
   destination:
     name: cluster1
     namespace: default
-
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
