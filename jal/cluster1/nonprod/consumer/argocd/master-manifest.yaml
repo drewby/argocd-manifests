@@ -12,7 +12,7 @@ spec:
     targetRevision: HEAD
     path: jal/cluster1/consumer
   destination:
-    server: cluster1
+    name: cluster1
     namespace: default
   syncPolicy:
     automated:
