@@ -1,16 +1,16 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: consumer-default-master-apps
+  name: cluster1-consumer-default-master-apps
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
-    repoURL: https://github.com/kshitijcode/argocd-manifests
+    repoURL: https://github.com/drewby/argocd-manifests
     targetRevision: master
-    path: default/cluster1/consumer
+    path: jal/cluster1/consumer
   destination:
     server: https://kubernetes.default.svc
     namespace: default-all
