@@ -6,8 +6,7 @@ resources:
 
 # self managed project and master app
 # - argocd/master-app-default.yaml
-  - argocd/master-manifest.yaml
+#  - argocd/master-manifest.yaml
 
 # nonprod environment
   - environment/nonprod/app2-app-manifest.yaml
-

@@ -8,11 +8,11 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/kshitijcode/demo-apps
-    targetRevision: main
+    repoURL: https://github.com/drewby/demo-apps
+    targetRevision: HEAD
     path: app2
   destination:
-    server: https://kubernetes.default.svc
+    name: cluster3
     namespace: app2
   syncPolicy:
     automated:
