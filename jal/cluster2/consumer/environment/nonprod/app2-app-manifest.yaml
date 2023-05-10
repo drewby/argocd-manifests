@@ -12,7 +12,7 @@ spec:
     targetRevision: HEAD
     path: app2
   destination:
-    name: cluster2
+    name: https://kubernetes.default.svc
     namespace: default
   syncPolicy:
     automated:
